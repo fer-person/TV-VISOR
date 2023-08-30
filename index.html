@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multi-TV</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/9582/9582350.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            max-width: 1920px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #042940;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+        .header {
+			display: flex;
+			align-items: center;
+        }
+        .header h1 {
+            color: #DBF227;
+            font-size: 50px;
+			margin: 0 0 0 30px;
+        }
+        .logo {
+            width: 100px;
+        }
+        .videos-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+            max-width: 1300px; /*TAMAÑO ANCHO VIDEOS*/
+            width: 100%;
+            margin-top: 20px;
+        }
+        .video-container {
+            width: calc(33.33% - 20px);
+            max-width: 560px;
+            flex-grow: 1;
+        }
+        iframe {
+            width: 100%;
+            height: 215px; /*TAMAÑO ALTO VIDEOS 315 - ori)*/
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img class="logo" src="https://i.ibb.co/RcXQ8hd/100.png" alt="Logo Multi-TV">
+        <h1>SEGUIDOR DE ACONTECIMIENTOS > TV</h1>
+    </div>
+    <div class="videos-row">
+        <div class="video-container">
+            <iframe src="https://www.youtube-nocookie.com/embed/HPiv1pzIPRc?si=qc_PsNoOGHT0DU9Y" title="1 - TN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="video-container">
+            <iframe src="https://www.youtube-nocookie.com/embed/4e8Iw3Frf1A?si=nOy0_xrbs9Ulp0R1" title="2 - LN+" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="video-container">
+            <iframe src="https://www.youtube-nocookie.com/embed/QGpHLgRnrx4?si=GqGkpgHggtiyn_3-" title="3 - A24" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="video-container">
+            <iframe src="https://www.youtube-nocookie.com/embed/39RJ2lb2irE?si=CSkGbjK3FnaFdLBw" title="4 - CRÓNICA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="video-container">
+            <iframe src="https://www.youtube-nocookie.com/embed/avly0uwZzOE?si=7Ib66iOS6YENXzbH" title="5 - C5N" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="video-container">
+            <iframe src="https://www.youtube-nocookie.com/embed/dZSmTYHoqsI" title="6 - TV PÚBLICA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+		<div class="video-container">
+            <iframe src="https://www.youtube-nocookie.com/embed/2IfTdw28WFY?si=XHMi08VX7dUuhHmi" title="7 - CANAL 26" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+		<div class="video-container">
+            <iframe src="https://www.youtube-nocookie.com/embed/O9mOtdZ-nSk?si=l7_Fh6X9ua5-Qp24" title="8 - EURO NEWS ESPAÑOL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+		<div class="video-container">
+            <iframe src="chrome-extension://eakdijdofmnclopcffkkgmndadhbjgka/player.html#https://rt-esp.rttv.com/dvr/rtesp/playlist_4500Kb.m3u8" title="9 - RT ESPAÑOL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+		
+    </div>
+</body>
+</html>
